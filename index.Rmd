@@ -1,0 +1,44 @@
+title       : Simple Health Report
+subtitle    : Do you know your BMI?
+author      : Wan-Ting Shen
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # library(slidify){mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+runtime:shiny
+output:html_document
+knit        : slidify::knit2slides
+---
+
+## Agenda
+
+Q
+--- .class #id 
+
+## What's BMI?
+
+The body mass index(BMI) is a value derived from the mass(weight) and height of an individual.
+
+BMI=mass(kg)/height(m)^2
+
+source:http://en.wikipedia.org/wiki/Body_mass_index
+---
+## Enter your information
+
+You should enter your "mass" and "height" to calculate your IBM.
+You can also enter your other data, and this app will give your more information.
+---
+## Quizz
+what's BMI?
+1. body max index
+2. _body mass index_
+3. beauty mixed information
+4. basic mass index
+
+***.hint Go back to the previous slide.
+***.explanation BMI is body mass index, is a value derived from the mass (weight) and height 
+
+of an individual. 
+---
